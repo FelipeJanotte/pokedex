@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Preloader/>
     <Header />
     <Pokedex/>
     <Footer/>
@@ -10,13 +11,15 @@
   import Header from './components/Header'
   import Pokedex from './components/Pokedex'
   import Footer from './components/Footer'
+  import Preloader from './components/Preloader'
 
   export default {
     name: 'App',
     components:{
       Header,
       Pokedex,
-      Footer
+      Footer,
+      Preloader
     }
   }
 </script>
