@@ -19,7 +19,7 @@ export default {
   }
   h2{
     font-family: pokemon-solid;
-    color: #ecf0f1;
+    color:white;
     font-size: 3rem;
     line-height: 4.5rem;
   }
