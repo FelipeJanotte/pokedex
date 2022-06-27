@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+
+  width: 100%;
+
+  padding: 1rem;
+
+  background: #3c3c3c;
+}
+
+header h1 {
+  letter-spacing: 0.5rem;
+  font-size: 2.5rem;
+  color: white;
+}
+
+header img {
+  height: 4rem;
+}
