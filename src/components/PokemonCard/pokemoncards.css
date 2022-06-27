@@ -1,0 +1,122 @@
+.card {
+  border: 2px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  box-shadow: 2px 2px 0 0 black;
+  font-weight: 300;
+
+  transition: transform 0.2s;
+}
+
+.card p {
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+}
+
+.card .types {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card span {
+  border-top: 2px solid black;
+
+  flex: 1;
+  padding: 0.5rem;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: white;
+  font-weight: 400;
+}
+
+.card span:not(:first-child) {
+  border-left: 2px solid black;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* TYPES COLORS */
+
+.fire {
+  background: #ff5c00;
+}
+
+.water {
+  background: #0085ff;
+}
+
+.grass {
+  background: #43d051;
+}
+
+.poison {
+  background: #a343d0;
+}
+
+.bug {
+  background: #a9e921;
+}
+
+.flying {
+  background: #a1c9c9;
+}
+
+.normal {
+  background: #c8b37c;
+}
+
+span.electric {
+  background: rgb(255, 255, 0);
+  color: black;
+}
+
+.ground {
+  background: #d9b046;
+}
+
+.fairy {
+  background: #fdabfa;
+}
+
+.fighting {
+  background: #c51434;
+}
+
+.psychic {
+  background: #d70081;
+}
+
+.rock {
+  background: #976846;
+}
+
+.steel {
+  background: #c3c1bf;
+}
+
+.ice {
+  background: #3ccfcf;
+}
+
+.ghost {
+  background: #835a6a;
+}
+
+.dragon {
+  background: #4b1194;
+}
+
+.dark {
+  background: #383639;
+}
