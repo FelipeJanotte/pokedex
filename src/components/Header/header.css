@@ -2,21 +2,48 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  flex-direction: column;
 
   width: 100%;
-
   padding: 1rem;
 
-  background: #3c3c3c;
+  border-bottom: 4px solid black;
+
+  background: white;
+}
+
+header .title {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
 }
 
 header h1 {
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
   font-size: 2.5rem;
-  color: white;
 }
 
 header img {
   height: 4rem;
+}
+
+header .change-theme-btn {
+  width: 25px;
+  height: 25px;
+}
+
+header .change-theme-btn.light {
+  background: url(../../assets/lunatone.png) no-repeat;
+}
+
+header .change-theme-btn.dark {
+  background: url(../../assets/solrock.png) no-repeat;
+}
+
+header span {
+  margin: 0.35rem;
+}
+
+header a:hover {
+  text-decoration: underline;
 }
