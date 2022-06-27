@@ -30,7 +30,11 @@ export const PokemonCard = ({ url }: PokemonCardProps) => {
         <p>{pokemon?.name}</p>
         <div className="types">
           {pokemon.types.map(({ type }) => {
-            return <span className={type.name}>{type.name}</span>;
+            return (
+              <span key={type.name} className={type.name}>
+                {type.name}
+              </span>
+            );
           })}
         </div>
       </div>
