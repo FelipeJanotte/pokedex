@@ -28,16 +28,12 @@ header img {
 }
 
 header .change-theme-btn {
+  position: relative;
+  z-index: 1;
+  border-radius: 9999px;
   width: 25px;
   height: 25px;
-}
-
-header .change-theme-btn.light {
   background: url(../../assets/lunatone.png) no-repeat;
-}
-
-header .change-theme-btn.dark {
-  background: url(../../assets/solrock.png) no-repeat;
 }
 
 header span {
@@ -46,4 +42,23 @@ header span {
 
 header a:hover {
   text-decoration: underline;
+}
+
+header .change-theme-btn:hover {
+  filter: brightness(0.8);
+}
+
+/* DARK THEME */
+
+header.dark {
+  background: black;
+  color: white;
+}
+
+header.dark a {
+  color: white;
+}
+
+header.dark .change-theme-btn {
+  background: url(../../assets/solrock.png) no-repeat;
 }

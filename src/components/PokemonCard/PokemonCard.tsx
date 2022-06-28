@@ -1,5 +1,6 @@
 import axios from "axios";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { ThemeContext } from "../../contexts/ThemeProvider";
 import "./pokemoncards.css";
 import { PokemonInterface } from "./PokemonInterface";
 
@@ -8,6 +9,7 @@ interface PokemonCardProps {
 }
 
 export const PokemonCard = ({ url }: PokemonCardProps) => {
+  const { theme } = useContext(ThemeContext);
   const [pokemon, setPokemon] = useState<null | PokemonInterface>(null);
 
   if (pokemon == null) {
@@ -25,7 +27,7 @@ export const PokemonCard = ({ url }: PokemonCardProps) => {
 
   if (pokemon?.sprites.front_default) {
     return (
-      <div className="card">
+      <div className={`card ${theme}`}>
         <img src={pokemon?.sprites.front_default} />
         <p>{pokemon?.name}</p>
         <div className="types">

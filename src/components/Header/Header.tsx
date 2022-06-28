@@ -10,14 +10,15 @@ export const Header = () => {
     changeTheme(theme);
   }
   return (
-    <header>
+    <header className={theme}>
       <div className="title">
         <h1>POKEDEX</h1>
         <img src={pokedex} alt="Pokedex" />
         <button
           onClick={handleClick}
           type="button"
-          className={`change-theme-btn ${theme}`}
+          title="Mudar tema"
+          className="change-theme-btn"
         ></button>
       </div>
       <span>

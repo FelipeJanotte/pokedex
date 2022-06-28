@@ -47,6 +47,12 @@
   transform: scale(1.05);
 }
 
+/* DARK THEME */
+.card.dark {
+  background: #666666;
+  color: white;
+}
+
 /* TYPES COLORS */
 
 .fire {
@@ -69,8 +75,9 @@
   background: #a9e921;
 }
 
-.flying {
+span.flying {
   background: #a1c9c9;
+  color: black;
 }
 
 .normal {

@@ -26,6 +26,14 @@ button {
   text-align: center;
 }
 
+/* DARKTHEME */
+
+.App.dark {
+  background: #5c595c;
+}
+
+/* RESPONSIVE */
+
 @media (max-width: 1080px) {
   html {
     font-size: 93.75%;
