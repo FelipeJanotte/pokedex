@@ -26,10 +26,10 @@ Esse projeto é uma Pokedex (uma lista de pokemons(criaturas de um desenho japon
 <div align="center">
 <p>1440x1024 - 425x820</p>
 
-<img height="250" src="https://github.com/FelipeJanotte/pokedex/tree/master/public/prints/light-desktop.png" alt="Tela inicial da Pokedex em tema claro"/>
-<img height="250" src="https://github.com/FelipeJanotte/pokedex/tree/master/public/prints/light-mobile.png" alt="Tela inicial da Pokedex em tema claro"/>
+<img height="250" src="./public/prints/light-desktop.PNG" alt="Tela inicial da Pokedex em tema claro"/>
+<img height="250" src="./public/prints/light-mobile.PNG" alt="Tela inicial da Pokedex em tema claro"/>
 
-<img height="250" src="https://github.com/FelipeJanotte/pokedex/tree/master/public/prints/dark-desktop.png" alt="Tela inicial da Pokedex em tema escuro"/>
-<img height="250" src="https://github.com/FelipeJanotte/pokedex/tree/master/public/prints/dark-mobile.png" alt="Tela inicial da Pokedex em tema escuro"/>
+<img height="250" src="./public/prints/dark-desktop.PNG" alt="Tela inicial da Pokedex em tema escuro"/>
+<img height="250" src="./public/prints/dark-mobile.PNG" alt="Tela inicial da Pokedex em tema escuro"/>
 
 </div>
