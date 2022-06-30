@@ -4,7 +4,7 @@
 
 ## Sobre
 
-Esse projeto é uma Pokedex (uma lista de pokemons(criaturas de um desenho japonês)), você pode ver os primeiros 905 pokemons (esse número foi limitado, pois existe milhares). O projeto teve o intuito inicial de consolidar conhecimentos de requisições HTTP, ReactTS, ContextAPI.
+Esse projeto é uma Pokedex (uma lista de pokemons[criaturas de um desenho japonês]), onde você pode ver os primeiros 905 pokemons (esse número foi limitado, pois existe milhares). O projeto teve o intuito inicial de consolidar conhecimentos de requisições HTTP, ReactTS, ContextAPI.
 
 <div  align="center">
   <a href="https://pokedex.felipejanotte.vercel.app" target="_blank">CLIQUE AQUI PARA VISUALIZAR O SITE!</a>
