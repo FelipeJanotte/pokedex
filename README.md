@@ -24,12 +24,29 @@ Esse projeto é uma Pokedex (uma lista de pokemons[criaturas de um desenho japon
 ## Prints
 
 <div align="center">
-<p>1440x1024 - 425x820</p>
+<table>
 
-<img height="250" src="./public/prints/light-desktop.PNG" alt="Tela inicial da Pokedex em tema claro"/>
-<img height="250" src="./public/prints/light-mobile.PNG" alt="Tela inicial da Pokedex em tema claro"/>
+  <thead>
+    <tr>
+      <th>TELA</th>
+      <th>1440X1024</th>
+      <th>425X820</th>
+    <tr>
+  </thead>
 
-<img height="250" src="./public/prints/dark-desktop.PNG" alt="Tela inicial da Pokedex em tema escuro"/>
-<img height="250" src="./public/prints/dark-mobile.PNG" alt="Tela inicial da Pokedex em tema escuro"/>
+  <tbody>
+    <tr>
+      <td>CLARO</td>
+      <td><img height="250" src="./public/prints/light-desktop.PNG" alt="Tela inicial da Pokedex em tema claro"/></td>
+      <td><img height="250" src="./public/prints/light-mobile.PNG" alt="Tela inicial da Pokedex em tema claro"/></td>
+    </tr>
+    <tr>
+      <td>ESCURO</td>
+      <td><img height="250" src="./public/prints/dark-desktop.PNG" alt="Tela inicial da Pokedex em tema escuro"/></td>
+      <td><img height="250" src="./public/prints/dark-mobile.PNG" alt="Tela inicial da Pokedex em tema escuro"/></td>
+    </tr>
+  </tbody>
+
+</table>
 
 </div>
