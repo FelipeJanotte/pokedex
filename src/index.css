@@ -1,0 +1,100 @@
+:root {
+  font-family: Inter, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #f1f2f6;
+}
+
+.App.dark {
+  background: #4b4b4b;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  background: #e74c3c;
+  color: #ecf0f1;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: .75rem;
+}
+
+.header .button-change-theme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  margin-left: 1rem;
+  cursor: pointer;
+  border-radius: 99999px;
+  padding: .25rem;
+}
+
+.header .button-change-theme:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.main {
+  display: grid;
+  grid: auto-flow / repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.buttons {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.buttons:disabled {
+  cursor: not-allowed;
+  filter: brightness(1.5);
+}
+
+.App.dark .buttons:disabled {
+  filter: brightness(0.7);
+}
+
+.buttons:not(:disabled):hover {
+  filter: brightness(0.7);
+}
+
+.App.dark .buttons:not(:disabled):hover {
+  filter: brightness(1.5);
+}
+
+.next-button {
+  right: 5%;
+}
+
+.previous-button {
+  left: 5%;
+}
